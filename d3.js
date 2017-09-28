@@ -9485,9 +9485,9 @@
     return d.getMilliseconds();
   } ], [ ":%S", function(d) {
     return d.getSeconds();
-  } ], [ "%I:%M", function(d) {
+  } ], [ "%H:%M", function(d) {
     return d.getMinutes();
-  } ], [ "%I %p", function(d) {
+  } ], [ "%H:%M", function(d) {
     return d.getHours();
   } ], [ "%a %d", function(d) {
     return d.getDay() && d.getDate() != 1;
